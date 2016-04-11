@@ -1,0 +1,18 @@
+[user]
+	name = Nikolay
+[alias]
+	co = checkout
+        ci = commit
+	cm = commit -m
+	ca = commit --amend
+	st = status
+	ss = status -sb
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+
+[push]
+	default = simple
+[core]
+	excludesfile = ~/.gitexcludes
