@@ -1,5 +1,7 @@
 [user]
 	name = Nikolay
+[core]
+	autocrlf = false
 [alias]
 	co = checkout
         ci = commit
